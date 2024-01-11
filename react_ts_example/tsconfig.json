@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "noImplicitAny": true,
-    "strictNullChecks": true,
+    "target": "es6", // ES6 사용
+    "noImplicitAny": true, //any타입 금지 여부
+    "strictNullChecks": true, //null, undefined 타입 에러
+
     "lib": [
       "dom",
       "dom.iterable",
-      "esnext"
+      "esnext",
+      "es6" // ES6 사용
     ],
     "allowJs": true,
     "skipLibCheck": true,
