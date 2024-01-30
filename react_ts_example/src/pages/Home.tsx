@@ -41,6 +41,9 @@ const Home = () => {
       <p>가장 먼저 보여지는 페이지입니다.</p>
       {/* 라우트 이동  */}
       <Link to="/about">소개</Link>
+      <br />
+      <Link to="/board">게시판</Link>
+
 
       <div>
         <Store info={myRestaurant} changeAddress={changeAddress} />
